@@ -1,10 +1,9 @@
 package CodeTogether;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class TomasMathCalculator {
+public class CodeTogetherGuessTheNumber {
 
 
     // Genrera ett slumptal mellan 0 och 99X

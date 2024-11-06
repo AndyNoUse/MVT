@@ -17,8 +17,9 @@ public class RandomArray {
             System.out.println(randomArray[i]);
         }
         RandomGenerator generator = new RandomGenerator();
-        int[] newArray = generator.randomArray();
-        for (int i=0; i<newArray.length;i++){
-            System.out.println(newArray[i]);
+       // int[] newArray = generator.randomArray();
+        //for (int i=0; i<newArray.length;i++){
+       //     System.out.println(newArray[i]);
+
     }
-}}
+}
