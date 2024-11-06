@@ -24,11 +24,20 @@ public class Calculator {
         return x * y;
     }
 
-    public int power() {
-        int result =1;
-        for (int i=0; i<y; i++){
-            result =result*x;
-        }
-        return result;
+    public int power() { //Exponent
+//        int result =1;
+//        for (int i=0; i<y; i++){
+//            result =result*x;
+//        }
+
+        return (int) Math.pow(x, y);
     }
+
+    public int biggestOf() {
+        return Math.max(x, y);
+    }
+    public int restenVidDivision() { //modulo
+        return x%y;
+    }
+
 }
