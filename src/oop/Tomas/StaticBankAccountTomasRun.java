@@ -1,10 +1,8 @@
 package oop.Tomas;
 
-import oop.BankAccount;
-
 import java.util.Scanner;
 
-public class BankAccountTomasRun {
+public class StaticBankAccountTomasRun {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Välkommen till din Bank, vad vill du göra?");
@@ -13,7 +11,7 @@ public class BankAccountTomasRun {
         System.out.println("3 Uttag");
         System.out.println("4 Insättning");
         System.out.println("5 Avsluta");
-        BankAccountTomas myAccount = new BankAccountTomas();
+        StaticBankAccountTomas myAccount = new StaticBankAccountTomas();
 
         int val = 0;
         do {

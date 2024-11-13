@@ -4,7 +4,7 @@ package oop.Tomas;
 
 
 
-public class BankAccountTomas {
+public class StaticBankAccountTomas {
     private int saldo;
 
     public void setSaldo(int newSaldo){
