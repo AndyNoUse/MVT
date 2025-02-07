@@ -9,7 +9,6 @@ public class SimpsonHashMap {
 //Gör inte det för att vi redan fattar det???
         Scanner scan = new Scanner(System.in);
 
-
         simpsons.put("Homer", "D'oh");
         simpsons.put("Marge", "Mmm~mmmmmm");
         simpsons.put("Bart", "Ay, caramba");
