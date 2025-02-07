@@ -18,7 +18,7 @@ public class Frog {
     private String name;   //Attribut
     private int age = 0;
     private int nrJumps = 0;
-    private int lengthJump = 2;
+    private int lengthJump = 0;
 
     Frog(String name, int age) { // Konstruktor med inparameter namn
         this.name = name;   //sätter vi attributets namn med this till parameterns namn
@@ -29,7 +29,7 @@ public class Frog {
         return name; // Om man har något annat än void måste man ha return i metoden
     }
 
-    public String behavior() {
+    public String behavior(int nrJumps, int lengthJump) {
         return name + " hoppar " + nrJumps + " gånger, totalt " + nrJumps * lengthJump + " meter";
     }
 
@@ -48,4 +48,8 @@ public class Frog {
     public int getLengthJump() {
         return lengthJump;
     }
+    public void setLengthJump(int lengthJump) {
+        this.lengthJump = lengthJump;
+    }
+
 }

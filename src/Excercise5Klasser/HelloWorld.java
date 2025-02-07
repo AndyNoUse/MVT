@@ -11,7 +11,7 @@ public class HelloWorld {
         //String text = scan.nextLine();
         int number =Integer.parseInt(scan.nextLine());
         //System.out.println(number);
-        //System.out.println("Du skrev denna text: " +text);
+        //System.out.println("Du skrev denna text: "+text);
 
         HelloWorldPrinter hwp = new HelloWorldPrinter();
 
