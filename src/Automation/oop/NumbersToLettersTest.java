@@ -28,7 +28,7 @@ public class NumbersToLettersTest {
     //Varje tal från 1-26 har en motsvarande bokstav i det
     // engelska alfabetet. Så 1=A, 3=C och 26=Z
     @Test
-    public void TestA() { //Jag behöver en metod för att
+    public void testA() { //Jag behöver en metod för att
         //konvertera översätta en char till nummer.
         //Jag vet att A = 1, Jag vet att jag behöver en class
         //som konverterar,
@@ -38,37 +38,57 @@ public class NumbersToLettersTest {
     }
 
     @Test
-    public void TestC() {
+    public void testC() {
         NumbersToLetters converter = new NumbersToLetters();
         converter.numToLetter(3);
         assertEquals('c', converter.numToLetter(3));
     }
 
     @Test
-    public void TestG() {
+    public void testG() {
         NumbersToLetters converter = new NumbersToLetters();
         converter.numToLetter(7);
         assertEquals('g', converter.numToLetter(7));
     }
 
     @Test
-    public void TestZ() {
+    public void testZ() {
         NumbersToLetters converter = new NumbersToLetters();
         converter.numToLetter(26);
         assertEquals('z', converter.numToLetter(26));
     }
 
     @Test
-    public void TestNum1() {
+    public void testNum1() {
         NumbersToLetters converter = new NumbersToLetters();
         converter.letterToNum('a');
         assertEquals(1, converter.letterToNum('a'));
     }
 
     @Test
-    public void TestNum2() {
+    public void testNum2() {
         NumbersToLetters converter = new NumbersToLetters();
         converter.letterToNum('b');
         assertEquals(2, converter.letterToNum('b'));
+    }
+
+    @Test
+    public void emptyInput() {
+        NumbersToLetters converter = new NumbersToLetters();
+        converter.letterToNum(' ');
+        assertEquals(' ', converter.letterToNum(' '));
+   }
+//    @Test
+//    public void arrayOfNumbersToWord() {
+//        NumbersToLetters converter = new NumbersToLetters();
+//        converter.numToLetter(1,2,3);
+//        assertEquals('ABC', converter.numToLetter(1,2,3));
+//        //assertArrayEquals om det är en Array
+  //  }
+    @Test
+    public void wordToNumbers() {
+        NumbersToLetters converter = new NumbersToLetters();
+        converter.letterToNum(' ');
+        assertEquals(' ', converter.letterToNum(' '));
     }
 }

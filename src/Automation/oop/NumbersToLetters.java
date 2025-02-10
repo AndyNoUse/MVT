@@ -2,7 +2,7 @@ package Automation.oop;
 
 //Konverterar klassen
 public class NumbersToLetters {
-    private String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private String alphabet = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public int numToLetter(int num) {
        // return alphabet.charAt(num - 1);
