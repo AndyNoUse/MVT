@@ -30,6 +30,3 @@ public class AlphabetToSymbolsLogic {
 //            }
 //            return symbols;
 }
-
-}
-}
